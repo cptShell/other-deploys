@@ -265,11 +265,25 @@ body {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-image: url(a7de9f17453dbd7df734.svg);
   background-size: cover;
   transition: all ease 200ms;
   transform: scale(0.8);
   border-radius: 50%;
+}
+.toyform-item.toyform-ball {
+  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5iYWxsPC90aXRsZT4NCjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yOS40OTcgMS41NjNjLTEuOTA5IDEuMjk5LTIuNDIzIDMuNDg4LTEuMzE4IDUuNjA4bDAuNTM3IDEuMDMwLTIuODQxIDAuNjc1IDAuMDQyIDIuOTEgMC4wNDIgMi45MS0xLjQxNyAwLjM5OGMtMTIuODY0IDMuNjE1LTIwLjUxNyAxOC4yNzMtMTYuMjU1IDMxLjEzMSA0Ljk0NSAxNC45MTggMjEuNCAyMS4zODkgMzUuODMzIDE0LjA5MCAyLjI3MS0xLjE0OCA2LjIxOC00Ljc5NyA3LjctNy4xMTkgMC41MDItMC43ODYgMS4xNDUtMS42NjIgMS40My0xLjk0N3MwLjQ1Ni0wLjYxOCAwLjM4LTAuNzQxLTAuMDI3LTAuMjkyIDAuMTA5LTAuMzc3YzAuNTYzLTAuMzQ4IDEuNzA2LTMuNzYgMi4zOS03LjEzMiAyLjM0MS0xMS41NDQtNS41OTctMjQuNjEzLTE2LjkyOC0yNy44NjhsLTEuNDIzLTAuNDA5LTAuMDA5LTIuODk4Yy0wLjAxMS0zLjM1NCAwLjEyOS0zLjAxNS0xLjM2NC0zLjI5NC0xLjUwOS0wLjI4Mi0xLjUzMS0wLjMxMy0wLjkyLTEuMzE1IDIuMjQ5LTMuNjg4LTIuNDExLTguMDg4LTUuOTg4LTUuNjUzek0zMy40OSAyLjEyYzIuMDQxIDEuMDU2IDIuMzgyIDMuNzcxIDAuNjk5IDUuNTY3LTAuNzc5IDAuODMyLTMuODU3IDAuODMyLTQuNjE1IDAtMi43ODQtMy4wNTcgMC4yOTctNy40MzkgMy45MTYtNS41Njd6Ij48L3BhdGg+DQo8L3N2Zz4NCg==);
+}
+.toyform-item.toyform-bell {
+  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5iZWxsPC90aXRsZT4NCjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zMS40MTYgMi4xODhjLTAuMDg2IDAuOTI4LTAuMDg5IDIuMDk3LTAuMDA4IDIuNTk4IDAuMTQ3IDAuOTA0IDAuMTQxIDAuOTEyLTAuODcyIDEuMDgzLTEuODMyIDAuMzEtMi4yNTQgMC44NjMtMi4zMzggMy4wNjMtMC4wNzIgMS44OTktMC4wNzggMS45MTMtMC44MjMgMi4wNzktNy4wNDQgMS41NjMtOC4wMDEgMi41Ny04LjM4IDguODE1LTAuNTY0IDkuMjc2LTEuNTY3IDE0LjQyOC0zLjg0MSAxOS43MTYtMC4yMTcgMC41MDUtMC45NDUgMS42NDUtMS42MTcgMi41MzQtMi41NTMgMy4zNzMtMi43OTcgMy44MjUtMy4yIDUuOTIzLTAuMTE1IDAuNjAxIDAuNjIgNC4xOTMgMS4wMTIgNC45NDEgMS4zNzYgMi42MjcgNi45MzQgNS44OTYgMTIuOTc3IDcuNjMzIDEuNTcgMC40NTEgMy4wNjMgMS4wMjkgMy4zMTcgMS4yODMgMS43NTIgMS43NTIgNy41MzEgMS44NTQgOC45MjEgMC4xNTggMC40NDctMC41NDUgMS4wNDMtMC44MDEgMi45MzYtMS4yNTggNS4wNjktMS4yMjQgOS42ODUtMy41MDggMTIuNTktNi4yMjkgMi44MjYtMi42NDggMi43NTQtNy42NTEtMC4xNjctMTEuNDkzLTAuNzY5LTEuMDEyLTEuODEzLTIuNy0yLjMxOS0zLjc1cy0xLjAwNS0yLjA4NS0xLjEwOC0yLjI5OGMtMC44Ny0xLjc5Ny0yLjEyNS04Ljg2NC0yLjUwNS0xNC4xMTItMC41NzctNy45NjMtMC41NjItNy44ODItMS43MTQtOC45MDYtMS4yNjUtMS4xMjQtMy4yMjItMi4wOTItNS4wMjYtMi40ODQtMi44MTItMC42MTItMi41OTYtMC40MDgtMi44NzUtMi43MTYtMC4yOTgtMi40NjUtMC43NjItMy4wMTktMi41MjgtMy4wMTloLTEuMDk3di0yLjE0MWMwLTMuMzk4LTEuMDQ4LTQuNTE1LTEuMzM0LTEuNDIxeiI+PC9wYXRoPg0KPC9zdmc+DQo=);
+}
+.toyform-item.toyform-cone {
+  background-image: url(7a360a868157b82d2cda.svg);
+}
+.toyform-item.toyform-snowflake {
+  background-image: url(a7de9f17453dbd7df734.svg);
+}
+.toyform-item.toyform-toy {
+  background-image: url(d8ea3c174fc8fb9000e3.svg);
 }
 
 .color-item {
@@ -406,6 +420,36 @@ body {
   width: 100%;
 }
 
+.count-input-container,
+.year-input-container {
+  position: relative;
+  pointer-events: none;
+  width: 100%;
+}
+
+.count-input-container input[type='range'],
+.year-input-container input[type='range'] {
+  height: 2em;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.count-input-container input[type='range']:last-child,
+.year-input-container input[type='range']:last-child {
+  margin-top: -2em;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  pointer-events: all;
+}
+input[type='range']::-moz-range-thumb {
+  pointer-events: all;
+}
+input[type='range']::-ms-thumb {
+  pointer-events: all;
+}
+
 .count-min,
 .count-max,
 .year-min,
@@ -418,11 +462,7 @@ body {
   height: 30px;
   border: 1px solid skyblue;
   border-radius: 20px;
-  background: radial-gradient(
-    118.88% 606.86% at 0% 0%,
-    rgba(36, 197, 219, 0.15) 0%,
-    rgba(36, 197, 219, 0) 100%
-  );
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
 }
 
 .sort-section {
@@ -430,7 +470,6 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-  //min-height: 280px;
   padding: 15px;
   background-color: rgba(36, 73, 70, 0.75);
   border-radius: 10px;
@@ -454,11 +493,7 @@ body {
   padding: 5px 10px;
   border: 1px solid skyblue;
   border-radius: 15px;
-  background: radial-gradient(
-    118.88% 606.86% at 0% 0%,
-    rgba(36, 197, 219, 0.15) 0%,
-    rgba(36, 197, 219, 0) 100%
-  );
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
 }
 .sort-option {
   color: black;
@@ -565,6 +600,74 @@ body {
   display: flex;
   align-items: center;
   column-gap: 20px;
+}
+
+.popup-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-wrapper.active {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.popup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  background-color: rgba(36, 73, 70, 0.75);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  transform: translateY(-200px);
+  opacity: 0;
+}
+.popup.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.popup-exit-button {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.popup-exit-button::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(50% - 2px);
+  width: 100%;
+  height: 4px;
+  transform: rotate(45deg);
+  background-color: white;
+  transition: background ease 150ms;
+}
+.popup-exit-button::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(50% - 2px);
+  width: 100%;
+  height: 4px;
+  transform: rotate(-45deg);
+  background-color: white;
+  transition: background-color ease 150ms;
+}
+.popup > .exit-button:hover::after,
+.popup > .exit-button:hover::before {
+  background-color: skyblue;
 }
 
 
