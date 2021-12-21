@@ -498,6 +498,16 @@ input[type='range']::-ms-thumb {
 .sort-option {
   color: black;
 }
+.reset-button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(36, 197, 219, 0.15) 0%, rgba(36, 197, 219, 0) 100%);
+  border: 1px solid skyblue;
+  transition: all ease 150ms;
+}
+.reset-button:hover {
+  background: radial-gradient(118.88% 606.86% at 0% 0%, rgba(186, 232, 238, 0.15) 0%, rrgba(3, 215, 243, 0) 100%);
+}
 
 .toys-container {
   grid-area: d;
