@@ -498,6 +498,12 @@ input[type='range']::-ms-thumb {
 .sort-option {
   color: black;
 }
+.reset-controls {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+}
 .reset-button {
   padding: 5px 10px;
   border-radius: 15px;
